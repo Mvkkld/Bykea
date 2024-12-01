@@ -155,6 +155,6 @@ const styles = StyleSheet.create({
       borderWidth:1,
       borderRadius:10,
       justifyContent:'space-around',
-      paddingHorizontal:5
+      paddingHorizontal:6
     }
 });
