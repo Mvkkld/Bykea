@@ -55,17 +55,17 @@ source= {{uri: "https://images.news9live.com/wp-content/uploads/2023/06/Untitled
  
   <View style={styles.row}>
   <Card title={"Ride"} icon={"electric-car"} bgColor={"#c1e1c5"} />
-          <Card title={"Delivery"} icon={"bike-scooter"} bgColor={"#bedadc"} /> 
+  <Card title={"Delivery"} icon={"bike-scooter"} bgColor={"#bedadc"} /> 
   </View>
   
    <View style={styles.row}>
-   <Card title={"Mart"} icon={"electric-car"} bgColor={"#fef3bd"} />
-   <Card title={"Cash"} icon={"bike-scooter"} bgColor={"#d8e7f4"} />
+   <Card title={"Mart"} icon={"add-shopping-cart"} bgColor={"#fef3bd"} />
+   <Card title={"Cash"} icon={"payments"} bgColor={"#d8e7f4"} />
   </View>
   
   <View style={styles.row}>
-  <Card title={"Classified"} icon={"electric-car"} bgColor={"#e3eff0"} />
-  <Card title={"Goods"} icon={"bike-scooter"} bgColor={"#fed2d1"} />
+  <Card title={"Classified"} icon={"paid"} bgColor={"#e3eff0"} />
+  <Card title={"Goods"} icon={"business"} bgColor={"#fed2d1"} />
   </View>
 
 </View>
