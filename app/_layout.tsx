@@ -34,9 +34,9 @@ export default function RootLayout() {
   return <View style={styles.container}>
     {/* Header */}
     <View style={styles.header}>
-      <MaterialIcons name="menu" size={40} color="green" />
+      <MaterialIcons name="menu" size={35} color="green" />
       <Text style={styles.headerText}>BYKEA</Text>
-      <MaterialIcons name="add-call" size={37} color="green" />
+      <MaterialIcons name="add-call" size={33} color="green" />
     </View>
 {/* banner image View */}
 <View style={styles.bannerImgView}>
@@ -105,18 +105,19 @@ const styles = StyleSheet.create({
    textAlign:'center'
   },
   header:{
-    height:50,
+    height:55,
     borderBottomColor:'gray',
     borderBottomWidth:1,
     flexDirection:'row',
     justifyContent:'space-between',
     paddingHorizontal: 12,
-    alignItems:'center'
+    alignItems:'center',
+  marginHorizontal:7
   },
   headerText:{
     fontWeight:'bold',
     color:'green',
-    fontSize:37
+    fontSize:30
   },
   bannerImgView:{
     height: SCREEN_HEIGHT/4,
