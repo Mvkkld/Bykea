@@ -188,6 +188,7 @@ export default function RootLayout() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
